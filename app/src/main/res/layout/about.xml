@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="10dip"
+        android:src="@drawable/del" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="email|web"
+            android:text="欢迎使用VideoPlayer！\n\n
+    					VideoPlayer是一款灵巧便捷的视频播放器。它使用您设备默认的解码器进行解码，从而保证播放的速度和效果。\n
+    					本软件为本人利用业余时间开发，免费提供给大家使用，请大家尽情享受VideoPlayer所带来的流畅播放体验吧！\n\n
+    					快捷操作技巧:\n\n
+    					全屏切换：\t双击屏幕\n\n
+    					播放/暂停：\t长按屏幕\n\n
+    					静音/恢复：\t长按音量按钮\n\n
+    					播放列表：\t控制面板最右边的按钮(目前暂不支持编辑功能)\n\n
+    					音量调节：\t单击音量按钮，在弹出的音量显示区域触摸改变音量\n\n\n
+    					最后声明：本软件所使用的UI素材均来自于网络，如果侵犯了您的合法权益，请联系我，我会及时更换。\n\n感谢您的使用！\n\n"
+            android:textColor="#99FFFFFF"
+            android:textSize="18dip"
+
+            />
+    </ScrollView>
+
+
+</LinearLayout>
